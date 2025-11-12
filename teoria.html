@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="URLdeDestino" method="post" id="username required">
+        <label for="username">username:</label>
+    <input type="text" name="username" value="anonimo" id="realname required">
+        <br>
+        <label for="realname">Nombre real:</label>
+        <input type="text" name="realname" id="realname">
+        <br>
+        <fieldset>
+            <legend>Carnet de conducir</legend>
+            <label for="carnetsi">SI:</label>
+            <input type="radio" name="Carnet" value="carnetsi" id="carnetsi">
+            <label for="carnetno">No:</label>
+            <input type="radio" name="Carnet" value="carnetno" id="carnetno">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Gustos musicales</legend>
+            <label for="pop">Pop:</label> 
+            <input type="checkbox" name="musica" value="pop" id="pop">
+            <label for="heavy">Heavy:</label> 
+            <input type="checkbox" name="musica" value="heavy" id="heavy">
+            <label for="pachanga">pachanga:</label>
+            <input type="checkbox" name="musica" value="pachanga" id="pachanga">
+        </fieldset>
+        <br>
+        <label for="nacionalidad">Nacionalidad:</label>
+        <select>
+            <option value="espana">españa</option>
+            <option value="usa">USA</option>
+            <option value="brasil">brasil</option>
+        </select>
+        <br>
+        <label for="observaciones">observaciones:</label>
+        <textarea name="observaciones"></textarea>
+        <br>
+        <button type="submit" name="enviar">Enviar datos</button>
+</form>
+</body>
+</html>
